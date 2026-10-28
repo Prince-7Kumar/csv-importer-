@@ -1,0 +1,15 @@
+{
+  "name": "metadata-importer",
+  "version": "1.0.0",
+  "description": "Import Excel metadata into PostgreSQL",
+  "main": "src/import.js",
+  "scripts": {
+    "import-metadata": "node src/import.js",
+    "test-db": "node src/testConnection.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "pg": "^8.13.1",
+    "xlsx": "^0.18.5"
+  }
+}
